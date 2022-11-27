@@ -7,31 +7,126 @@
     <meta name="description" content="The Community Science Museum, offering children and their parents the opportunity to become real scientists and explore together">
     <link rel="shortcut icon" type="image/png" href="/image/logo__csm.png">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:regular,600,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:600,800&display=swap" rel="stylesheet" />
     <title>The Community Science Museum | Home</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
+        <header class="header" id="open">
+            <div id="close" class="header__container">
                 <a href="" class="header__logo"><img src="/image/logo__name.svg" alt="Logo and Community Science Museum text"></a>
-                <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="" class="menu__link">VISIT US</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">EXHIBITIONS</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">EVENTS</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">GET INVOLVED</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">EXPLORE</a></li>
-                    </ul>
-                </nav>
-                <div class="header__actions">
-                    <a href="" class="action__button">Tickets</a>
+                <div class="header__menu menu">
+                    <nav id="menu" class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="/exhibitions.html" class="menu__link">EXHIBITIONS</a></li>
+                            <li class="menu__item"><a href="/events.html" class="menu__link">EVENTS</a></li>
+                            <li class="menu__item"><a href="/get-involved.html" class="menu__link">GET INVOLVED</a></li>
+                            <li class="menu__item"><a href="/explore.html" class="menu__link">EXPLORE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__button">
+                    <a href="/visit-us.html" class="button button__nav">VISIT US</a>
+                    <a href="#open" class="icon-menu"><span></span></a>
+                    <a href="#close" class="close-icon-menu"></a>
                 </div>
             </div>
         </header>
-        <main class="main"></main>
-        <footer class="footer"></footer>
+        <main class="main">
+            <section class="direction section linear margin">
+                <div class="direction__container row">
+                    <div class="direction__content size">
+                        <div class="direction__block block colum">
+                            <div class="subtitle">EXPLORE TOGETHER</div>
+                            <div class="title"><h1>Explore special exhibitions and events at the <span>Community Science Museum</span></h1></div>
+                            <div class="text">Come join us at the Community Science Museum where we’re committed to making science accessible to all. Here there is something to do for the whole family!</div>
+                            <div class="section__button "><a href="/exhibitions.html" class="button button__main">View More</a></div>
+                        </div>
+                    </div>
+                    <div class="section__image size"><img src="/image/img__spacetech.png" alt="The man on the screen controls the rocket at launch"></div>
+                </div>
+            </section>
+            <section class="statistic">
+                <div class="statistic__container">
+                    <div class="statistic__row">
+                        <div class="statistic__body linear-gradient">
+                            <div class="statistic__body__item">
+                                <div class="statistic__body__value">+7</div>
+                                <div class="statistic__body__text">ESOTERICS</div>
+                            </div>
+                            <div class="statistic__body__item">
+                                <div class="statistic__body__value">2m</div>
+                                <div class="statistic__body__text">ARTIFACTS</div>
+                            </div>
+                            <div class="statistic__body__item">
+                                <div class="statistic__body__value">10, 000 +</div>
+                                <div class="statistic__body__text">MATERIALS</div>
+                            </div>
+                        </div>
+                        <div class="statistic__row">
+                            <div class="statistic__row__dekor statistic__row__decor_1"></div>
+                            <div class="statistic__row__decor_2 statistic__row__dekor"></div>
+                            <div class="statistic__row__decor_3 statistic__row__dekor"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="against section">
+                <div class="against__container row">
+                    <div class="direction__content size">
+                        <div class="against__block block colum">
+                            <div class="title">Look at science in everyday life...</div>
+                            <div class="text">We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore.</div>
+                            <div class="section__button "><a href="/explore.html" class="button button__main">Learn More</a></div>
+                        </div>
+                    </div>
+                    <div class="section__image size"><img src="/image/img__braintech.png" alt="Brain over smartphone surrounded by screens"></div>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card__container">
+                    <div class="card__row">
+                        <div class="card__body linear-gradient">
+                            <div class="card__body__item">
+                                <div class="card__body__image"><img src="/image/img__cosmology.svg" alt="Six stars of different sizes."></div>
+                            </div>
+                            <div class="card__body__title">COSMOLOGY</div>
+                            <div class="card__body__text">Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</div>
+                        </div>
+                        <div class="card__body linear-gradient">
+                            <div class="card__body__item">
+                                <div class="card__body__image"><img src="/image/img__biology.svg" alt="Bacteria in a circle."></div>
+                            </div>
+                            <div class="card__body__title">BIOLOGY & MEDICINE</div>
+                            <div class="card__body__text">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.</div>
+                        </div>
+                        <div class="card__body linear-gradient">
+                            <div class="card__body__item">
+                                <div class="card__body__image"><img src="/image/img__ecology.svg" alt="Water drop."></div>
+                            </div>
+                            <div class="card__body__title">ECOLOGY</div>
+                            <div class="card__body__text">Ecosystem processes, such as primary production, nutrient cycling, and niche construction, regulate the flux of energy and matter through an environment.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="get-involved section">
+                <div class="direction__container row">
+                    <div class="direction__content size">
+                        <div class="direction__block block colum">
+                            <div class="title">Help Out, Get Perks and Get Involved
+                            </div>
+                            <div class="text">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</div>
+                            <div class="section__button "><a href="/exhibitions.html" class="button button__main">Get Started</a></div>
+                        </div>
+                    </div>
+                    <div class="section__image size"><img src="/image/img__get__involved.png" alt="Teacher in the laboratory holding a flask in his left hand"></div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">FOOTER</footer>
     </div>
 </body>
 </html>
