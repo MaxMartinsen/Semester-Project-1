@@ -327,6 +327,7 @@ body {
   padding: 20px;
   max-width: 376px;
   flex: 0 1 33.333%;
+  width: 100%;
 }
 .card__body__title {
   font-weight: 700;
