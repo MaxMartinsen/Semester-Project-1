@@ -240,9 +240,6 @@
   .header:target .close-icon-menu {
     display: flex;
   }
-  .footer__container {
-    padding: 0 25px;
-  }
 }
 /* SMALL MOBILE */
 @media (max-width: 479.98px) {
