@@ -343,6 +343,7 @@ body {
   justify-content: space-between;
 }
 .footer__logo {
+  margin-bottom: 15px;
 }
 .footer__row {
   max-width: 258px;
