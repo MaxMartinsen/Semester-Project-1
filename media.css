@@ -266,4 +266,8 @@
     font-size: 12px;
     line-height: 18px;
   }
+  /*-footer-*/
+  .footer__row {
+    flex: 0 1 100%;
+  }
 }
