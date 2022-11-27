@@ -134,6 +134,10 @@ body {
   text-transform: uppercase;
 }
 .menu__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  text-decoration-color: var(--blue);
 }
 .close-icon-menu,
 .icon-menu {
@@ -336,8 +340,6 @@ body {
   background-color: var(--footer);
   padding: 50px 0;
 }
-.footer__container {
-}
 .footer__vertical {
   display: flex;
   justify-content: space-between;
@@ -348,8 +350,7 @@ body {
 .footer__row {
   max-width: 258px;
 }
-.footer__body {
-}
+
 .footer__label span {
   color: var(--aqua);
 }
@@ -368,8 +369,6 @@ body {
   font-size: 14px;
   line-height: 1.2;
   margin: 0px 0px 25px 0px;
-}
-.footer__subtext {
 }
 .footer__list {
   font-weight: 400;
@@ -393,8 +392,6 @@ body {
   font-size: 18px;
   line-height: 1;
   letter-spacing: 1px;
-}
-.footer__subrow {
 }
 .footer__sublist {
   font-weight: 400;
