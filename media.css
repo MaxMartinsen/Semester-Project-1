@@ -181,6 +181,14 @@
     align-items: center;
     flex-direction: column;
   }
+  /*-footer-*/
+  .footer__row {
+    flex: 0 1 50%;
+  }
+  .footer__vertical {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 
   /* Menu mobile */
 
@@ -231,6 +239,9 @@
   }
   .header:target .close-icon-menu {
     display: flex;
+  }
+  .footer__container {
+    padding: 0 25px;
   }
 }
 /* SMALL MOBILE */
