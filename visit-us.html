@@ -98,33 +98,32 @@
             <section class="booking">
                 <div class="booking__container row">
                     <div class="booking__content size">
-                        <div class="  .booking__block block colum">
+                        <div class="booking__block block colum">
                             <div class="title">Book guided tour</div>
                             <form action="form-success.php" method="GET" id="form" class="booking__colum">
-                                <div class="first-name booking__vertical">
-                                  <label for="first-name">First name</label>
-                                  <input type="text" name="first-name" id="first-name" class="form__input">
-                                  <div class="form__error" id="firstNameError">Please provide a first name of at least 1 character</div>
-                                </div>
-                                <div class="last-name booking__vertical">
-                                  <label for="last-name">Last name</label>
-                                  <input type="text" name="last-name" id="last-name" class="form__input">
-                                  <div class="form__error" id="lastNameError">Please provide a last name of at least 2 characters</div>
-                                </div>
-                                <div class="e-mail booking__vertical">
-                                  <label for="name">E-mail</label>
-                                  <input type="text" name="e-mail" id="e-mail" class="form__input">
-                                  <div class="form__error" id="emailError">Please provide a valid email</div>
-                                </div>
-                                <div class="textarea booking__vertical">
-                                  <label for="textarea">Message</label>
-                                  <textarea name="message" id="message" class="form__textarea"></textarea>
-                                  <div class="form__error" id="messageError">Your message must be at least 20 characters long</div>
-                                </div>
-                                <div class="submit__button">
-                                    <input id="submit" type="submit" value="SEND" class="button button__main">
-                                </div>
-                            </form>
+                            <div class="group">
+                                <input class="booking__input" type="text" name="first-name" id="first-name" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                <label for="first-name">First name</label>
+                            </div>
+                            <div class="group">
+                                <input class="booking__input" type="text" name="last-name" id="last-name" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                <label for="last-name">Last name</label>
+                            </div>
+                            <div class="group">
+                                <input class="booking__input" type="text" name="e-mail" id="e-mail" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                <label for="name">E-mail</label>
+                            </div>
+                            <div class="group">
+                                <input class="booking__input" type="tel" id="phone" name="phone" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                <label for="phone">Number</label>
+                            </div>
+                            <div class="group">
+                                <textarea class="booking__input" type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
+                                <label>Message</label>
+                            </div>
+                            <div class="submit__button">
+                                <input id="submit" type="submit" value="SEND" class="button button__main">
+                            </div>
                         </div>
                     </div>
                     <div class="section__image size"><img src="/image/image_cosmo.svg" alt="Astronaut sitting in a chair"></div>

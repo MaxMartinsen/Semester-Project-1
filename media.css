@@ -107,7 +107,7 @@
     border-radius: 0px 0px 10px 0px;
     top: 80px;
     left: -100%;
-    width: 50%;
+    width: 65%;
     height: max-content;
     padding: 25px 15px 0px 15px;
     background: linear-gradient(#0a121f, #19202d);
@@ -146,6 +146,7 @@
   .direction__container {
     flex-wrap: wrap-reverse;
   }
+  .booking__container,
   .against__container {
     flex-wrap: wrap;
   }
@@ -250,9 +251,6 @@
   .header__logo {
     flex: 0 0 66px;
     overflow: hidden;
-  }
-  .menu__body {
-    width: 65%;
   }
   /*-direction-*/
   .subtitle {

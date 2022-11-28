@@ -47,7 +47,10 @@ body {
   font-size: 18px;
   line-height: 160%;
 }
-
+input:-webkit-autofill {
+  background: none;
+  color: var(--webkit);
+}
 :root {
   --white: #ffffff;
   --blue: #3a68b8;
@@ -58,6 +61,21 @@ body {
   --grey: #cfcfcf;
   --lightaqua: #53c4f7;
   --footer: #09101e;
+  --webkit: #2196f3;
+}
+/*-webkit-*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--grey);
+  -webkit-box-shadow: 0 0 0px 1000px none inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 /*-wrapper-*/
@@ -424,31 +442,103 @@ body {
   margin: 40px 0 0 0;
   text-align: center;
 }
-/*-form-*/
-.first-name {
+
+/*- design form input*/
+.submit__button input {
 }
-.form__error {
-  margin-top: 5px;
-  font-size: 14px;
-  line-height: 160%;
+form {
+  width: 320px;
+  margin: 0px auto;
 }
-.last-name {
+form h1 {
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: var(--webkit);
 }
-.e-mail {
+form h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--grey);
 }
-.textarea {
+form hr.sep {
+  background: var(--webkit);
+  box-shadow: none;
+  border: none;
+  height: 2px;
+  width: 25%;
+  margin: 0px auto 45px auto;
 }
-.booking__colum {
-  display: flex;
-  flex-direction: column;
+form .emoji {
+  font-size: 1.2em;
 }
-.booking__vertical {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+
+.group {
+  position: relative;
+  margin: 20px 0;
 }
-.form__input {
-  max-width: 400px;
+
+textarea {
+  resize: none;
 }
-.form__textarea {
+.booking__input {
+  width: 320px;
+  border-bottom: 1px solid var(--grey);
+}
+input,
+textarea {
+  background: none;
+  color: var(--grey);
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  border: none;
+  border-radius: 0;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: var(--webkit);
+}
+input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 320px;
+}
+
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+label {
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 300ms ease all;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: 320px;
+}
+.bar:before {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0px;
+  position: absolute;
+  background: var(--webkit);
+  transition: 300ms ease all;
+  left: 0%;
 }
