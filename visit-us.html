@@ -57,7 +57,7 @@
                             <div class="card__body__item">
                                 <div class="card__body__image"><img src="/image/img_location.svg" alt="Six stars of different sizes."></div>
                             </div>
-                            <div class="card__body__title">LOCATION</div>
+                            <div class="card__body__title white">LOCATION</div>
                             <div class="card__body__text">
                                 <ul>
                                     <li>Museumvei 1 , 4999 , Oslo.</li>
@@ -69,7 +69,7 @@
                             <div class="card__body__item">
                                 <div class="card__body__image"><img src="/image/img_clock.svg" alt="Bacteria in a circle."></div>
                             </div>
-                            <div class="card__body__title">OPENING HOURS</div>
+                            <div class="card__body__title white">OPENING HOURS</div>
                             <div class="card__body__text">
                                 <ul>
                                     <li>Monday: Closed</li>
@@ -84,7 +84,7 @@
                             <div class="card__body__item">
                                 <div class="card__body__image"><img src="/image/img_book.svg" alt="Water drop."></div>
                             </div>
-                            <div class="card__body__title">CONTACT INFO</div>
+                            <div class="card__body__title white">CONTACT INFO</div>
                             <div class="card__body__text">
                                 <ul>
                                     <li>post@csm.com</li>
@@ -96,11 +96,35 @@
                 </div>
             </section>
             <section class="booking">
-                <div class="against__container row">
-                    <div class="direction__content size">
-                        <div class="against__block block colum">
+                <div class="booking__container row">
+                    <div class="booking__content size">
+                        <div class="  .booking__block block colum">
                             <div class="title">Book guided tour</div>
-                            <div class="section__button "><a href="/explore.html" class="button button__main">Send</a></div>
+                            <form action="form-success.php" method="GET" id="form" class="booking__colum">
+                                <div class="first-name booking__vertical">
+                                  <label for="first-name">First name</label>
+                                  <input type="text" name="first-name" id="first-name" class="form__input">
+                                  <div class="form__error" id="firstNameError">Please provide a first name of at least 1 character</div>
+                                </div>
+                                <div class="last-name booking__vertical">
+                                  <label for="last-name">Last name</label>
+                                  <input type="text" name="last-name" id="last-name" class="form__input">
+                                  <div class="form__error" id="lastNameError">Please provide a last name of at least 2 characters</div>
+                                </div>
+                                <div class="e-mail booking__vertical">
+                                  <label for="name">E-mail</label>
+                                  <input type="text" name="e-mail" id="e-mail" class="form__input">
+                                  <div class="form__error" id="emailError">Please provide a valid email</div>
+                                </div>
+                                <div class="textarea booking__vertical">
+                                  <label for="textarea">Message</label>
+                                  <textarea name="message" id="message" class="form__textarea"></textarea>
+                                  <div class="form__error" id="messageError">Your message must be at least 20 characters long</div>
+                                </div>
+                                <div class="submit__button">
+                                    <input id="submit" type="submit" value="SEND" class="button button__main">
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="section__image size"><img src="/image/image_cosmo.svg" alt="Astronaut sitting in a chair"></div>
@@ -113,14 +137,14 @@
                             <div class="card__body__item">
                                 <div class="card__body__image"><img src="/image/img_acces.svg" alt="Six stars of different sizes."></div>
                             </div>
-                            <div class="card__body__title">ACCESSIBILITY</div>
+                            <div class="card__body__title white">ACCESSIBILITY</div>
                             <div class="card__body__text">The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</div>
                         </div>
                         <div class="card__body linear-gradient">
                             <div class="card__body__item">
                                 <div class="card__body__image"><img src="/image/img_meal.svg" alt="Bacteria in a circle."></div>
                             </div>
-                            <div class="card__body__title">FOOD & DRINK</div>
+                            <div class="card__body__title white">FOOD & DRINK</div>
                             <div class="card__body__text">There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.
                             </div>
                         </div>
@@ -128,7 +152,7 @@
                             <div class="card__body__item">
                                 <div class="card__body__image"><img src="/image/img_shop.svg" alt="Water drop."></div>
                             </div>
-                            <div class="card__body__title">SHOP</div>
+                            <div class="card__body__title white">SHOP</div>
                             <div class="card__body__text">Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</div>
                         </div>
                     </div>
