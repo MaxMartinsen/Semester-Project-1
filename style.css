@@ -251,6 +251,17 @@ select:-webkit-autofill:focus {
 .algin {
   margin: 0 auto;
 }
+.textalgin {
+  text-align: center;
+}
+.sublabel__name {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  color: var(--white);
+  margin: 50px 0px 35px 0px;
+}
 .labeltext {
   font-weight: 600;
   font-size: 36px;
@@ -458,5 +469,4 @@ select:-webkit-autofill:focus {
   line-height: 1;
   letter-spacing: 1px;
   margin: 40px 0 0 0;
-  text-align: center;
 }
