@@ -239,6 +239,10 @@ select:-webkit-autofill:focus {
   padding: 15px;
   max-height: 100%;
 }
+.box__container {
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
 .left {
   margin-right: 15px;
 }
