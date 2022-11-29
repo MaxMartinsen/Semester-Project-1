@@ -398,6 +398,20 @@ select:-webkit-autofill:focus {
 .google {
   margin-top: 20px;
 }
+/*-banner-*/
+.banner {
+}
+.banner__container {
+}
+.banner__row {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.banner__body img {
+  max-width: 100%;
+}
+
 /*-footer-*/
 .footer {
   background-color: var(--footer);
