@@ -241,7 +241,7 @@ select:-webkit-autofill:focus {
   justify-content: flex-start;
   align-items: center;
 }
-.section__img,
+.section__img img,
 .section__image img {
   max-width: 100%;
 }
