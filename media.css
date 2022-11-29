@@ -159,6 +159,7 @@
   .against__container {
     flex-wrap: wrap;
   }
+  .section__img,
   .section__image {
     text-align: center;
     padding-bottom: 30px;
