@@ -194,6 +194,10 @@
     flex-wrap: wrap;
     gap: 30px;
   }
+  /*-image-*/
+  .section__image img {
+    max-width: 45vh;
+  }
 
   /* Menu mobile */
 
@@ -268,5 +272,9 @@
   /*-footer-*/
   .footer__row {
     flex: 0 1 100%;
+  }
+  /*-image-*/
+  .section__image img {
+    max-width: 45vh;
   }
 }
