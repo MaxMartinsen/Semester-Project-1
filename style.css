@@ -241,6 +241,7 @@ select:-webkit-autofill:focus {
   justify-content: flex-start;
   align-items: center;
 }
+.section__img,
 .section__image img {
   max-width: 100%;
 }
@@ -399,10 +400,6 @@ select:-webkit-autofill:focus {
   margin-top: 20px;
 }
 /*-banner-*/
-.banner {
-}
-.banner__container {
-}
 .banner__row {
   display: flex;
   justify-content: center;

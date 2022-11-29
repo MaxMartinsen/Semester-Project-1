@@ -207,6 +207,9 @@
   .section__image img {
     max-width: 65%;
   }
+  .section__img img {
+    max-width: 85%;
+  }
 
   /* Menu mobile */
 
