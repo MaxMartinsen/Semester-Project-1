@@ -253,6 +253,8 @@ select:-webkit-autofill:focus {
 .section__image img {
   max-width: 100%;
 }
+.section__image {
+}
 
 /*--subtittle-title-text-labeltext-*/
 .center {
