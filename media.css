@@ -137,6 +137,14 @@
   .left {
     margin: 0px;
   }
+  .popup__title,
+  .card__body__title {
+    font-size: 20px;
+  }
+  .popup__text,
+  .card__body__text {
+    font-size: 14px;
+  }
   /*-direction-*/
   .statistic__body {
     display: flex;
