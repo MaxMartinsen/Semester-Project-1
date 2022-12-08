@@ -203,6 +203,7 @@ select:-webkit-autofill:focus {
 .row {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .colum {
   display: flex;
@@ -253,6 +254,7 @@ select:-webkit-autofill:focus {
   justify-content: flex-start;
   align-items: center;
 }
+.popup__image img,
 .banner__body img,
 .section__img img,
 .section__image img {
@@ -315,6 +317,21 @@ select:-webkit-autofill:focus {
 
 .text:not(:last-child) {
   margin: 0px 0px 40px 0px;
+}
+/*-alginlabel-*/
+.alginlabel {
+  padding: 30px 0px;
+}
+.alginlabel__body {
+  max-width: 550px;
+  margin: 0 auto;
+}
+.alginlabel__title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  color: var(--aqua);
 }
 /*-statistic-*/
 .linear-gradient {
@@ -431,6 +448,9 @@ select:-webkit-autofill:focus {
   margin-top: 20px;
 }
 /*-popup-*/
+.popup__span {
+  color: var(--blue);
+}
 .popup__link {
   color: var(--blue);
   padding: 5px 10px;
@@ -476,9 +496,14 @@ select:-webkit-autofill:focus {
   justify-content: center;
   padding: 30px 10px;
 }
+.width__image {
+  max-width: 800px;
+}
+.width__text {
+  max-width: 400px;
+}
 .popup__content {
   background-color: var(--dark);
-  max-width: 400px;
   padding: 30px;
   border-radius: 15px;
   text-align: center;
