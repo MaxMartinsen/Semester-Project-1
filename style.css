@@ -428,6 +428,11 @@ select:-webkit-autofill:focus {
   flex: 0 1 33.333%;
   width: 100%;
 }
+.popup__subtitle {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125%;
+}
 .popup__title,
 .card__body__title {
   font-weight: 700;
