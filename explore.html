@@ -8,6 +8,7 @@
     <link rel="shortcut icon" type="image/png" href="/image/logo__csm.png">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/media.css">
+    <link rel="stylesheet" href="/form.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:regular,600,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:600,800&display=swap" rel="stylesheet" />
     <title>The Community Science Museum | Explore</title>
@@ -89,7 +90,7 @@
                             <div class="card__body__text">
                                 <ul>
                                     <li>During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore.</li>
-                                    <li>To find out more about the holiday club and how you can join, send us a message.</li>
+                                    <li>To find out more about the holiday club and how you can join, send us a <span><a class="popup__span" href="#popup_6">message</a></span>.</li>
                                 </ul>
                             </div>
                         </div>
@@ -161,6 +162,43 @@
                         <a href="#header" class="popup__close">X</a>
                         <div class="popup__title">Young Stars</div>
                         <div class="popup__image"><img src="/image/image__young_stars.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" id="popup_6">
+                <a href="#header" class="popup__area"></a>
+                <div class="popup__body">
+                    <div class="popup__content width__image linear-gradient">
+                        <a href="#header" class="popup__close">X</a>
+                        <div class="booking__content size">
+                            <div class="booking__block block colum">
+                                <div class="popup__title">HOLIDAY CLUB</div>
+                                <form action="form-success.php" method="GET" id="form" class="booking__colum">
+                                <div class="group">
+                                    <input class="booking__input" type="text" name="first-name" id="first-name" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                    <label for="first-name">First name</label>
+                                </div>
+                                <div class="group">
+                                    <input class="booking__input" type="text" name="last-name" id="last-name" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                    <label for="last-name">Last name</label>
+                                </div>
+                                <div class="group">
+                                    <input class="booking__input" type="text" name="e-mail" id="e-mail" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                    <label for="name">E-mail</label>
+                                </div>
+                                <div class="group">
+                                    <input class="booking__input" type="tel" id="phone" name="phone" required="required"/><span class="highlight"></span><span class="bar"></span>
+                                    <label for="phone">Number</label>
+                                </div>
+                                <div class="group">
+                                    <textarea class="booking__input" type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
+                                    <label>Message</label>
+                                </div>
+                                <div class="submit__button">
+                                    <input id="submit" type="submit" value="SEND" class="button button__main">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
