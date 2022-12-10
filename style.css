@@ -482,16 +482,16 @@ input:-webkit-autofill {
   visibility: hidden;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: all 0.8s ease 0s;
+  /* transition: all 0.8s ease 0s;*/
 }
 .popup:target {
   opacity: 1;
   visibility: visible;
 }
-.popup:target .popup__content {
+/*.popup:target .popup__content {
   transform: translate(0px, 0px);
   opacity: 1;
-}
+}*/
 .popup__area {
   position: absolute;
   width: 100%;
@@ -505,7 +505,7 @@ input:-webkit-autofill {
   align-items: center;
   justify-content: center;
   padding: 30px 10px;
-  transition: all 0.8s ease 0s;
+  /*transition: all 0.8s ease 0s;*/
 }
 .width__image {
   max-width: 800px;
@@ -519,9 +519,9 @@ input:-webkit-autofill {
   border-radius: 15px;
   text-align: center;
   position: relative;
-  opacity: 0;
+  /*opacity: 0;
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -100%);
+  transform: translate(0px, -100%);*/
 }
 .popup__close {
   position: absolute;
