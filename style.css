@@ -717,3 +717,7 @@ input:-webkit-autofill {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+i {
+  display: none;
+  color: var(--white);
+}
