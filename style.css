@@ -444,7 +444,7 @@ input:-webkit-autofill {
   font-weight: 700;
   font-size: 25px;
   line-height: 125%;
-  padding: 20px 0px 25px 0px;
+  padding: 20px;
 }
 .popup__text,
 .card__body__text {
@@ -692,6 +692,9 @@ input:-webkit-autofill {
   background-clip: content-box;
 }
 */
+#shop,
+#accessibility,
+#cafe,
 #location {
   border-top: 355px solid transparent;
   margin-top: -355px;
