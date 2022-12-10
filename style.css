@@ -710,8 +710,8 @@ input:-webkit-autofill {
 }
 #robotics,
 #biology {
-  border-top: 250px solid transparent;
-  margin-top: -250px;
+  border-top: 210px solid transparent;
+  margin-top: -210px;
   padding: 0px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
