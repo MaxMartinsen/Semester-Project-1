@@ -307,12 +307,6 @@
   .header:target .close-icon-menu {
     display: flex;
   }
-  /*-anchor-*/
-  #medicine,
-  #ai {
-    border-top: -50px solid transparent;
-    margin-top: 50px;
-  }
 }
 /* SMALL MOBILE */
 @media (max-width: 479.98px) {
