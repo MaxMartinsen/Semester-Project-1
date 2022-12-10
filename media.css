@@ -310,8 +310,8 @@
   /*-anchor-*/
   #medicine,
   #ai {
-    border-top: 610px solid transparent;
-    margin-top: -610px;
+    border-top: 50px solid transparent;
+    margin-top: -50px;
   }
 }
 /* SMALL MOBILE */
