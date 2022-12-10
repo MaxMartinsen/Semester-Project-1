@@ -23,6 +23,10 @@
   .statistic__row {
     max-width: 750px;
   }
+  /*-badge-*/
+  .badge__colum {
+    padding: 0px 12px;
+  }
 }
 /* TABLET */
 @media (max-width: 991.98px) {
@@ -63,6 +67,17 @@
   }
   .statistic__body__text {
     font-size: 20px;
+  }
+  /*-badge-*/
+  .item-badge__icon {
+    margin-top: 0px;
+  }
+  .item-badge__title {
+    margin: 10px 0px 5px 0px;
+  }
+  .item-badge__text {
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 /* MOBILE */
@@ -205,6 +220,23 @@
   .card__row {
     align-items: center;
     flex-direction: column;
+  }
+  /*-badge-*/
+  .badge__items {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  .badge__colum {
+    max-width: 310px;
+    margin: 0 auto;
+  }
+  .badge__colum_2::after {
+    right: 220px;
+  }
+  .item-badge__text {
+    font-size: 10px;
+    line-height: 12px;
   }
   /*-footer-*/
   .footer__container {
