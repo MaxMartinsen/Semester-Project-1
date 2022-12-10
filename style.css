@@ -521,7 +521,7 @@ i {
   position: relative;
   opacity: 0;
   transition: all 0.8s ease 0s;
-  transform: translate(0px, -100%);
+  /*transform: translate(0px, -100%);*/
 }
 .popup__close {
   position: absolute;
