@@ -482,7 +482,7 @@ input:-webkit-autofill {
   visibility: hidden;
   overflow-y: auto;
   overflow-x: hidden;
-  /* transition: all 0.8s ease 0s;*/
+  transition: all 0.8s ease 0s;
 }
 .popup:target {
   opacity: 1;
