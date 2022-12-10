@@ -149,7 +149,7 @@ input:-webkit-autofill {
   align-items: center;
   flex: 0 0 263px;
 }
-/*-popup-*/ /*
+/*-popup-*/
 .popup__span {
   color: var(--blue);
 }
