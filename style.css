@@ -168,6 +168,9 @@ input:-webkit-autofill {
   font-size: 14px;
   text-transform: uppercase;
 }
+i {
+  display: none;
+}
 .menu__link:hover {
   text-decoration: underline;
   text-underline-offset: 10px;
