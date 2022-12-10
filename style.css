@@ -74,9 +74,6 @@ body {
 .google span {
   color: var(--blue);
 }
-.footer__label span {
-  color: var(--webkit);
-}
 .linear {
   background: linear-gradient(#030b19, #050d1b);
 }
@@ -629,7 +626,7 @@ input:-webkit-autofill {
   font-weight: 800;
   font-size: 18px;
   line-height: 1;
-  color: var(--webkit);
+  color: var(--blue);
 }
 .footer__label,
 .footer__subtitle {
