@@ -684,20 +684,21 @@ input:-webkit-autofill {
 .footer__link:hover {
   color: var(--blue);
 }
-/*-anchor-*/ /*
-#location {
-  padding-top: 350px;
-  margin-top: -350px;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
-}
-*/
+/*-anchor-*/
 #shop,
 #accessibility,
 #cafe,
 #location {
   border-top: 355px solid transparent;
   margin-top: -355px;
+  padding: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#cosmology {
+  border-top: 100px solid transparent;
+  margin-top: -100px;
   padding: 20px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
