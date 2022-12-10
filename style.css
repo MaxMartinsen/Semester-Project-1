@@ -696,6 +696,10 @@ input:-webkit-autofill {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+#evolution,
+#ai,
+#ecology,
+#medicine,
 #cosmology {
   border-top: 100px solid transparent;
   margin-top: -100px;
