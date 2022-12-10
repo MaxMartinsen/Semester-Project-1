@@ -239,7 +239,6 @@ input:-webkit-autofill {
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
-
 .row {
   display: flex;
   align-items: center;
@@ -678,4 +677,11 @@ input:-webkit-autofill {
   line-height: 1;
   letter-spacing: 1px;
   margin: 40px 0 0 0;
+}
+.footer__link {
+  color: var(--white);
+  transition: all 0.8s ease 0s;
+}
+.footer__link:hover {
+  color: var(--blue);
 }
