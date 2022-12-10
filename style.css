@@ -712,7 +712,7 @@ input:-webkit-autofill {
 #biology {
   border-top: 210px solid transparent;
   margin-top: -210px;
-  padding: 0px;
+  padding: 10px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
