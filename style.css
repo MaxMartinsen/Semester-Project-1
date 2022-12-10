@@ -75,7 +75,7 @@ body {
   color: var(--blue);
 }
 .footer__label span {
-  color: var(--lightaqua);
+  color: var(--lightblue);
 }
 .linear {
   background: linear-gradient(#030b19, #050d1b);
