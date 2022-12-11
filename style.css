@@ -271,6 +271,7 @@ input:-webkit-autofill {
   justify-content: flex-start;
   align-items: center;
 }
+.form__image img,
 .item-badge__image img,
 .popup__image img,
 .banner__body img,
@@ -731,9 +732,6 @@ input:-webkit-autofill {
 i {
   display: none;
   color: var(--white);
-}
-.section__image__colum {
-  width: 533px;
 }
 /*events_media_dekor*/
 .events__media {
