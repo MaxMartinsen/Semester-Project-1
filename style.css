@@ -233,6 +233,10 @@ input:-webkit-autofill {
   padding: 15px;
   max-height: 100%;
 }
+.book,
+.free {
+  padding: 20px 0px;
+}
 .box__container {
   flex-wrap: wrap;
   flex-direction: row-reverse;
@@ -252,6 +256,13 @@ input:-webkit-autofill {
 .booking__container,
 .against__container {
   flex-direction: row-reverse;
+}
+.span {
+  color: var(--blue);
+}
+.buttons {
+  display: flex;
+  gap: 15px;
 }
 .section__button {
   position: relative;
