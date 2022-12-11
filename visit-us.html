@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/media.css">
     <link rel="stylesheet" href="/form.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:regular,600,700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:600,800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:regular,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,800&display=swap" rel="stylesheet">
     <title>The Community Science Museum | Visit us</title>
 </head>
 <body>
@@ -30,8 +30,8 @@
                 </div>
                 <div class="header__button">
                     <a href="/index.html" class="button button__nav">HOME</a>
-                    <a href="#open" class="icon-menu"><span></span></a>
-                    <a href="#close" class="close-icon-menu"></a>
+                    <a href="#open" class="icon-menu"><span></span><i>1</i></a>
+                    <a href="#close" class="close-icon-menu"><i>0</i></a>
                 </div>
             </div>
         </header>
@@ -51,7 +51,7 @@
                     <div class="section__img size"><img src="/image/image__museum.png" alt="The man on the screen controls the rocket at launch"></div>
                 </div>
             </section>
-            <section class="card">
+            <div class="card">
                 <div class="card__container">
                     <div class="card__row">
                         <div class="card__body linear-gradient">
@@ -95,42 +95,43 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="booking">
+            </div>
+            <div class="booking">
                 <div class="booking__container row">
                     <div class="booking__content size">
                         <div class="booking__block block colum">
                             <div class="title">Book guided tour</div>
                             <form action="form-success.php" method="GET" id="form" class="booking__colum">
-                            <div class="group">
-                                <input class="booking__input" type="text" name="first-name" id="first-name" required="required"/><span class="highlight"></span><span class="bar"></span>
-                                <label for="first-name">First name</label>
-                            </div>
-                            <div class="group">
-                                <input class="booking__input" type="text" name="last-name" id="last-name" required="required"/><span class="highlight"></span><span class="bar"></span>
-                                <label for="last-name">Last name</label>
-                            </div>
-                            <div class="group">
-                                <input class="booking__input" type="text" name="e-mail" id="e-mail" required="required"/><span class="highlight"></span><span class="bar"></span>
-                                <label for="name">E-mail</label>
-                            </div>
-                            <div class="group">
-                                <input class="booking__input" type="tel" id="phone" name="phone" required="required"/><span class="highlight"></span><span class="bar"></span>
-                                <label for="phone">Number</label>
-                            </div>
-                            <div class="group">
-                                <textarea class="booking__input" type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
-                                <label>Message</label>
-                            </div>
-                            <div class="submit__button">
-                                <input id="submit" type="submit" value="SEND" class="button button__main">
-                            </div>
+                                <div class="group">
+                                    <input class="booking__input" type="text" name="first-name" id="first-name" required="required"><span class="highlight"></span><span class="bar"></span>
+                                    <label for="first-name">First name</label>
+                                </div>
+                                <div class="group">
+                                    <input class="booking__input" type="text" name="last-name" id="last-name" required="required"><span class="highlight"></span><span class="bar"></span>
+                                    <label for="last-name">Last name</label>
+                                </div>
+                                <div class="group">
+                                    <input class="booking__input" type="text" name="e-mail" id="e-mail" required="required"><span class="highlight"></span><span class="bar"></span>
+                                    <label for="e-mail">E-mail</label>
+                                </div>
+                                <div class="group">
+                                    <input class="booking__input" type="tel" id="phone" name="phone" required="required"><span class="highlight"></span><span class="bar"></span>
+                                    <label for="phone">Number</label>
+                                </div>
+                                <div class="group">
+                                    <textarea class="booking__input" name="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
+                                    <label>Message</label>
+                                </div>
+                                <div class="submit__button">
+                                    <input id="submit" type="submit" value="SEND" class="button button__main">
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="section__image size"><img src="/image/image__cosmology.png" alt="Astronaut sitting in a chair"></div>
                 </div>
-            </section>
-            <section class="card">
+            </div>
+            <div class="card">
                 <div class="card__container">
                     <div class="card__row">
                         <div class="card__body linear-gradient">
@@ -157,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             <div class="popup" id="popup_7">
                 <a href="#header" class="popup__area"></a>
                 <div class="popup__body">
@@ -175,13 +176,13 @@
                 <div class="footer__vertical">
                     <div class="footer__row">
                         <div class="footer__body">
-                            <div class="footer__label"><span>C</span>ommunity <span>S</span>cience <span>M</span>useum</div>
+                            <div class="footer__label">Community Science Museum</div>
                             <div class="footer__text">Our museum offers various ways for you to use our resources and contribute towards them.</div>
                             <div class="footer__subtext">
                                 <ul class="footer__sublist white">
                                     <li class="footer__line mail">post@csm.com</li>
-                                    <li class="footer__line phone">Phone: ( 047 ) 990-222-333   </li>
-                                    <li class="footer__line location">Museumvei 1 , 4999 , Oslo.</li>
+                                    <li class="footer__line phone">Phone: ( 047 ) 990-222-333</li>
+                                    <li class="footer__line location">Museumveien 1, 0287, Oslo.</li>
                                 </ul>
                             </div>
                         </div>
@@ -190,7 +191,7 @@
                         <div class="footer__body">
                             <div class="footer__subtitle white">HOURS</div>
                             <div class="footer__subrow">
-                                <ul class="footer__sublist white">
+                                <ul class="footer__sublist">
                                     <li class="footer__subline">Monday: Closed</li>
                                     <li class="footer__subline">Tuesday: 10:00 - 16:00</li>
                                     <li class="footer__subline">Wednesday: 10:00 - 16:00</li>
@@ -207,13 +208,13 @@
                             <div class="footer__subtitle white">INFORMATION</div>
                             <div class="footer__subrow">
                                 <ul class="footer__sublist white">
-                                    <li class="footer__subline">About us</li>
-                                    <li class="footer__subline">Location</li>
-                                    <li class="footer__subline">Cafe & Food</li>
-                                    <li class="footer__subline">Shop</li>
-                                    <li class="footer__subline">Accessibility</li>
-                                    <li class="footer__subline">Support</li>
-                                    <li class="footer__subline">Events</li>
+                                    <li class="footer__subline"><a href="/visit-us.html" class="footer__link">Visit us</a></li>
+                                    <li class="footer__subline"><a href="/visit-us.html#location" class="footer__link">Location</a></li>
+                                    <li class="footer__subline"><a href="/visit-us.html#cafe" class="footer__link">Cafe & Food</a></li>
+                                    <li class="footer__subline"><a href="/visit-us.html#shop" class="footer__link">Shop</a></li>
+                                    <li class="footer__subline"><a href="/visit-us.html#accessibility" class="footer__link">Accessibility</a></li>
+                                    <li class="footer__subline"><a href="/get-involved.html" class="footer__link">Get involved</a></li>
+                                    <li class="footer__subline"><a href="/events.html" class="footer__link">Events</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -223,13 +224,13 @@
                             <div class="footer__subtitle white">LINKS</div>
                             <div class="footer__subrow">
                                 <ul class="footer__sublist white">
-                                    <li class="footer__subline">Cosmology</li>
-                                    <li class="footer__subline">Biology</li>
-                                    <li class="footer__subline">Medicine</li>
-                                    <li class="footer__subline">Ecology</li>
-                                    <li class="footer__subline">Robotics</li>
-                                    <li class="footer__subline">Ai</li>
-                                    <li class="footer__subline">Evolution</li>
+                                    <li class="footer__subline"><a href="/exhibitions.html#cosmology" class="footer__link">Cosmology</a></li>
+                                    <li class="footer__subline"><a href="/exhibitions.html#biology" class="footer__link">Biology</a></li>
+                                    <li class="footer__subline"><a href="/exhibitions.html#medicine" class="footer__link">Medicine</a></li>
+                                    <li class="footer__subline"><a href="/exhibitions.html#ecology" class="footer__link">Ecology</a></li>
+                                    <li class="footer__subline"><a class="footer__link" href="/exhibitions.html#robotics">Robotics</a></li>
+                                    <li class="footer__subline"><a class="footer__link" href="/exhibitions.html#ai">Ai</a></li>
+                                    <li class="footer__subline"><a class="footer__link" href="/exhibitions.html#evolution">Evolution</a></li>
                                 </ul>
                             </div>
                         </div>
