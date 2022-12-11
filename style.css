@@ -460,14 +460,14 @@ input:-webkit-autofill {
   color: var(--blue);
 }
 .popup__link {
-  color: var(--blue);
+  color: var(--white);
   padding: 5px 10px;
   border-radius: 5px;
-  border: var(--grey) solid 2px;
+  background-color: var(--blue);
   transition: background-color 0.8s ease 0s;
 }
 .popup__link:hover {
-  background-color: var(--lightgrey);
+  background-color: var(--lightblue);
 }
 .popup {
   position: fixed;
