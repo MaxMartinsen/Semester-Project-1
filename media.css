@@ -27,6 +27,9 @@
   .badge__colum {
     padding: 0px 12px;
   }
+  .events__colum {
+    width: 400px;
+  }
 }
 /* TABLET */
 @media (max-width: 991.98px) {
@@ -78,6 +81,9 @@
   .item-badge__text {
     font-size: 14px;
     line-height: 16px;
+  }
+  .events__colum {
+    width: 350px;
   }
 }
 /* MOBILE */
@@ -255,6 +261,10 @@
   }
   .section__img img {
     max-width: 75%;
+  }
+  .events__colum {
+    margin-bottom: 30px;
+    width: 300px;
   }
 
   /* Menu mobile */
