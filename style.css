@@ -169,6 +169,12 @@ input:-webkit-autofill {
   font-size: 14px;
   text-transform: uppercase;
 }
+.active__page {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  text-decoration-color: var(--blue);
+}
 .menu__link:hover {
   text-decoration: underline;
   text-underline-offset: 10px;
