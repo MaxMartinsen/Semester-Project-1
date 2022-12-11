@@ -297,6 +297,13 @@ input:-webkit-autofill {
   color: var(--white);
   margin: 15px 0 20px 0px;
 }
+.subname {
+  color: var(--webkit);
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
 .subtitle {
   font-size: 20px;
   line-height: 24px;
