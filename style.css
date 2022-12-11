@@ -732,6 +732,9 @@ i {
   display: none;
   color: var(--white);
 }
+.section__image__colum {
+  width: 533px;
+}
 /*events_media_dekor*/
 .events__media {
   flex: 0 1 50%;
