@@ -307,7 +307,7 @@ input:-webkit-autofill {
 .subtitle {
   font-size: 20px;
   line-height: 24px;
-  color: var(--blue);
+  color: var(--webkit);
   text-transform: uppercase;
 }
 .subtitle:not(:last-child) {
