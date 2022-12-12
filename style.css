@@ -474,6 +474,7 @@ input:-webkit-autofill {
 .span,
 .popup__span {
   color: var(--blue);
+  padding: 3px 0px;
 }
 .popup__link {
   color: var(--white);
