@@ -714,23 +714,16 @@ input:-webkit-autofill {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+#robotics,
+#biology,
 #evolution,
 #ai,
 #ecology,
 #medicine,
 #cosmology {
-  border-top: 100px solid transparent;
-  margin-top: -100px;
+  border-top: 250px solid transparent;
+  margin-top: -250px;
   padding: 20px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-#robotics,
-#biology {
-  border-top: 210px solid transparent;
-  margin-top: -210px;
-  padding: 10px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
