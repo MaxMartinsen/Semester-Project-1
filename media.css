@@ -185,12 +185,12 @@
   .against__block {
     padding: 0px 0px 20px 0px;
   }
-  .box__container,
-  .direction__container {
+  .wrap-reverse,
+  .box__container {
     flex-wrap: wrap-reverse;
   }
-  .booking__container,
-  .against__container {
+  .wrap,
+  .booking__container {
     flex-wrap: wrap;
   }
   .section__img,
