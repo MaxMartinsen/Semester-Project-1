@@ -185,10 +185,10 @@
   .against__block {
     padding: 0px 0px 20px 0px;
   }
-  .box__container,
   .direction__container {
     flex-wrap: wrap-reverse;
   }
+  .box__container,
   .booking__container,
   .against__container {
     flex-wrap: wrap;
@@ -196,7 +196,7 @@
   .section__img,
   .section__image {
     text-align: center;
-    padding-bottom: 30px;
+    padding: 20px 0px;
   }
   /*-statistic-*/
   .statistic__body__item {
