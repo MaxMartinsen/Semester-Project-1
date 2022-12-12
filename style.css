@@ -263,9 +263,6 @@ input:-webkit-autofill {
 .against__container {
   flex-direction: row-reverse;
 }
-.span {
-  color: var(--blue);
-}
 .buttons {
   display: flex;
   gap: 15px;
@@ -474,6 +471,7 @@ input:-webkit-autofill {
   margin-top: 20px;
 }
 /*-popup-*/
+.span,
 .popup__span {
   color: var(--blue);
 }
