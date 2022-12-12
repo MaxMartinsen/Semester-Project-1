@@ -205,7 +205,6 @@
     flex: 1 1 auto;
     flex-direction: column;
   }
-
   .statistic {
     margin: 0 0;
     padding: 20px 0px 20px 0px;
@@ -326,7 +325,7 @@
   }
   /*-image-*/
   .section__image img {
-    max-width: 45%;
+    max-width: 55%;
   }
   /*--subtittle-title-text-labeltext-*/
   .subtitle {
