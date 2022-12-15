@@ -80,7 +80,7 @@
   }
   .item-badge__text {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
   }
   .events__colum {
     width: 350px;
@@ -239,10 +239,6 @@
   .badge__colum_2::after {
     right: 220px;
   }
-  .item-badge__text {
-    font-size: 10px;
-    line-height: 12px;
-  }
   /*-footer-*/
   .footer__container {
     padding: 0px 30px;
@@ -337,7 +333,7 @@
     line-height: 28px;
   }
   .text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
   }
   .labeltext {
