@@ -587,9 +587,6 @@ input:-webkit-autofill {
   line-height: 20px;
   letter-spacing: 0.5px;
 }
-.span {
-  padding: 0px 5px;
-}
 /*-badge_dekor-*/
 .badge__colum_3::before,
 .badge__colum_2::after,
