@@ -491,11 +491,12 @@ input:-webkit-autofill {
   max-width: 400px;
 }
 .popup__content {
+  position: relative;
+  z-index: 8;
   background-color: var(--dark);
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  position: relative;
   /*opacity: 0;
   transition: all 0.8s ease 0s;
   transform: translate(0px, -100%);*/
@@ -526,6 +527,7 @@ input:-webkit-autofill {
   position: relative;
   padding: 0px 36px;
   flex: 0 1 33.333%;
+  z-index: 0;
 }
 .badge__item {
   height: 100%;
