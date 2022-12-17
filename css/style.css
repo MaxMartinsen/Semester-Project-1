@@ -1,5 +1,4 @@
 @import "/css/imports/variables.css";
-
 /*reset*/
 *,
 *::before,
@@ -234,8 +233,6 @@ input:-webkit-autofill {
   gap: 15px;
 }
 .section__button {
-  position: relative;
-  z-index: 5;
   display: flex;
   justify-content: flex-start;
   align-items: center;
