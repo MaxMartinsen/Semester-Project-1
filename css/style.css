@@ -706,6 +706,7 @@ i {
   text-align: center;
   position: relative;
   padding: 49px 54px 40px 56px;
+  z-index: 0;
 }
 .media__img img {
   border-radius: 15px;
