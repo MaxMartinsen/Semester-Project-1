@@ -366,4 +366,7 @@
   .left {
     margin: 0px;
   }
+  .button {
+    padding: 8px 15px;
+  }
 }
