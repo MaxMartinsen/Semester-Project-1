@@ -26,7 +26,7 @@ Explore together
 
 ### Description
 
-This project was a school assignment where you had to create a museum site. The design and topics covered in the vibrona blog are at the discretion of the developer, but it must have at least the following pages:
+This project was a school assignment where you had to create a museum website. The design and topics covered in the blog are up to the developer, but it should have at least the following pages:
 -	Home page
 -	About page
 -	List of blog posts
