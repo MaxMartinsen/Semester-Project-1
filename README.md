@@ -5,28 +5,28 @@
   <img src="https://github.com/MaxMartinsen/Semester-Project-1/blob/main/image/header__logo.svg" width="600" height="300"/>
 </div>
 
-The tech blog serves as an online platform focusing on car tips, offering users valuable insights on car maintenance.
+Welcome to the Community Science Museum, a space dedicated to making science exciting and accessible to everyone. Throughout history, science has transformed our understanding of everything from the four basic elements to the intricacies of life and the expanse of the universe. Our mission is to ignite curiosity, foster exploration, and inspire a passion for scientific discovery.
 
 ---
 
 ### Slogan
 
-Life hack automotive
+Explore together
 
 ## Target audience:
 
 #### Our primary audience includes:
 
-- Professional mechanics seeking to update their knowledge and learn about the latest industry trends.
-- DIY car enthusiasts interested in car modifications, repairs, and performance optimization.
-- General car owners looking for daily car maintenance tips and advice.
-- Potential car buyers in search of honest and unbiased car reviews.
+- Young learners with a budding interest in science
+- Teachers seeking an interactive learning environment for their students
+- Researchers looking for collaborative opportunities
+- General public with an interest in science
 
 ---
 
 ### Description
 
-This project was a school assignment where you had to create a blog site. The design and topics covered in the vibrona blog are at the discretion of the developer, but it must have at least the following pages:
+This project was a school assignment where you had to create a museum site. The design and topics covered in the vibrona blog are at the discretion of the developer, but it must have at least the following pages:
 -	Home page
 -	About page
 -	List of blog posts
