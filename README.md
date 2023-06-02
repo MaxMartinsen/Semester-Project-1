@@ -94,7 +94,7 @@ This project was build using:
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:MaxMartinsen/Project-Exam-1.git
+git clone git@github.com:MaxMartinsen/Semester-Project-1.git
 ```
 
 
