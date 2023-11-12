@@ -5,6 +5,8 @@
   <img src="https://github.com/MaxMartinsen/Semester-Project-1/blob/main/image/header__logo.svg" width="600" height="300"/>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc3a876a-a1f8-4c62-906c-074a821d240f/deploy-status)](https://app.netlify.com/sites/communitysciensemuseumoslo/deploys)
+
 Welcome to the Community Science Museum, a space dedicated to making science exciting and accessible to everyone. Throughout history, science has transformed our understanding of everything from the four basic elements to the intricacies of life and the expanse of the universe. Our mission is to ignite curiosity, foster exploration, and inspire a passion for scientific discovery.
 
 ---
